@@ -1,0 +1,64 @@
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mon Site</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+        <!-- Contenu de la page du CV -->
+        <h1>Saisie de CV</h1>
+  <form id="cvForm">
+    <div>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    <div>
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required>
+    </div>
+    <div>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="telephone">Téléphone :</label>
+      <input type="tel" id="telephone" name="telephone" required>
+    </div>
+    <div>
+      <label for="experience">Expérience :</label>
+      <textarea id="experience" name="experience" rows="4" cols="50" required></textarea>
+    </div>
+    <div>
+      <label for="competences">Compétences :</label>
+      <input type="text" id="competences" name="competences" required>
+    </div>
+    <div>
+      <label for="formation">Formation :</label>
+      <input type="text" id="formation" name="formation" required>
+    </div>
+
+     <label for="photo">Photo :</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    <button type="submit">Soumettre</button>
+  </form>
+  <script src="script.js"></script>
+
+<script src="script1.js"></script>
+
+
+  
+
+</body>
+</html>
